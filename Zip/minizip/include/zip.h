@@ -16,7 +16,6 @@
 #define _ZIP_H
 
 #ifdef __cplusplus
-extern "C" {
 #endif
 
 #ifndef _ZLIB_H
@@ -192,7 +191,6 @@ extern int ZEXPORT zipClose OF((zipFile file, const char* global_comment));
 /***************************************************************************/
 
 #ifdef __cplusplus
-}
 #endif
 
 #endif /* _ZIP_H */

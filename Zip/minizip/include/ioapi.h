@@ -75,7 +75,6 @@ typedef 64BIT_INT_CUSTOM_TYPE ZPOS64_T;
 #endif
 
 #ifdef __cplusplus
-extern "C" {
 #endif
 
 #define ZLIB_FILEFUNC_SEEK_CUR (1)
@@ -172,7 +171,7 @@ void fill_zlib_filefunc64_32_def_from_filefunc32 OF((zlib_filefunc64_32_def* p_f
 #define ZSEEK64(filefunc,filestream,pos,mode)       (call_zseek64((&(filefunc)),(filestream),(pos),(mode)))
 
 #ifdef __cplusplus
-}
+
 #endif
 
 #endif

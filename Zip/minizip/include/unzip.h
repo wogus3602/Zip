@@ -18,7 +18,6 @@
 #define _UNZ_H
 
 #ifdef __cplusplus
-extern "C" {
 #endif
 
 #ifndef _ZLIB_H
@@ -313,7 +312,6 @@ extern int ZEXPORT unzeof OF((unzFile file));
 /***************************************************************************/
 
 #ifdef __cplusplus
-}
 #endif
 
 #endif /* _UNZ_H */
